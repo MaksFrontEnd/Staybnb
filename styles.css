@@ -1,0 +1,140 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	font-size: 20px;
+}
+/*Underlines*/
+.underline{
+ border: 1px solid lightgray;
+ width: 60%;
+ background: lightgray;
+ margin: 50px 0 30px;
+}
+.underline-text{
+	display: none;
+}
+/*Text-Content*/
+.title, .title-message{
+	font-size: 2rem;
+	margin: 20px 0px 0px;
+}
+.text, .text-message{
+	font-size: 1.5rem;
+	margin: 10px 0px 0px;
+}
+.text-row{
+	margin-left: 20px;
+	padding: 10px;
+	font-size: 30px;
+}
+.description-text{
+	max-width: 1000px;
+	padding: 20px 20px;
+	font-size: 1.5rem;
+}
+/*Navigation-Bar*/
+#section_nav{
+	width: 100%;
+	box-shadow:0 0 10px;
+}
+.navbar-logo{
+ width: 200px;
+}
+.navbar-nav{
+	margin: auto;
+}
+.nav-link{
+font-size: 1.5rem;
+margin-right: 50px;
+}
+.navbar-toggler{
+	font-size: 20px;
+	border: none;
+}
+/*----Galery-Section----*/
+.galery-img-1{
+	width: 95%;
+	height: 95%;
+	margin-top: 15px;
+	border-radius: 20px;
+	padding: 5px 0px;
+}
+.galery-img{
+	max-width: 47%;
+	padding: 20px 10px;
+	border-radius: 25px;
+}
+/*Section-Map*/
+.map{
+	width: 100%;
+	height: 50vh;
+}
+.title-map{
+	font-family: 'Mochiy Pop P One';
+	font-size: 2rem;
+	padding: 20px 0 20px;
+}
+.text-map{
+font-family: 'Mochiy Pop P One';
+font-size: 1.2rem;
+}
+/*-----Sigth-Section---*/
+.block-sightseeing{
+display: flex;
+flex-direction: column;
+width: 100%;
+margin: 20px -10px 20px;
+}
+.sigth-img{
+width: 380px;
+padding: 0px;
+}
+/*Footer*/
+#footer{
+	padding-top: 12%;
+}
+/*Buttons*/
+.btn-outline-danger{
+	border-radius: 10px;
+	margin-top: 10px;
+}
+/*Containers*/
+.container-fluid{
+	padding: 0% 10%;
+}
+.small-details{
+display: flex;
+flex-direction: row-reverse;
+}
+.message-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+/*Footer*/
+.copyright{
+	color: lightgray;
+	font-size: 1.5rem;
+	text-align: center;
+	margin: 50px auto 50px;
+}
+/*Icons*/
+.icon-message{
+	font-size: 30px;
+	margin: 40px;
+}
+.icon-block{
+	color: red;
+	font-size: 30px;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+}
+.icons-footer{
+	text-align: center;
+	font-size: 20px;
+	color: gray;
+	font-size: 30px;
+}

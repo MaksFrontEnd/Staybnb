@@ -1,0 +1,22 @@
+/*------------------Tablets-----------------*/
+@media screen and (max-width: 900px){
+.text-message{
+	font-size: 17px;
+}
+}
+/*------------------Phones-----------------*/
+@media screen and (max-width: 400px){
+a{font-size: 1rem;}
+/*Textes*/
+.text-row{font-size: 1.5rem;}
+.title-message{font-size: 1.3rem;}
+.title, .title-map,{font-size: 1.5rem;}
+.text, .text-map, .text-message{font-size: 1rem;}
+.text-message{font-size: 15px;}
+.description-text{font-size: 1rem;}
+/*Map Section*/
+.map{height: 400px;}
+/*Footer*/
+#footer{margin-top: 50px}
+.copyright{font-size: 1rem;}
+}
