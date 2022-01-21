@@ -1,8 +1,14 @@
+/*Large-Tablets*/
+@media screen and (max-width: 1329px){
+/*Navigation-bar*/
+.navbar-logo{width: 150px}
+.nav-link{font-size: 1rem;}
+/*Btn*/
+.btn-outline-danger{font-size: 13px;}
+}
 /*------------------Tablets-----------------*/
 @media screen and (max-width: 900px){
-.text-message{
-	font-size: 17px;
-}
+.text-message{font-size: 17px;}
 }
 /*------------------Phones-----------------*/
 @media screen and (max-width: 400px){
@@ -16,6 +22,26 @@ a{font-size: 1rem;}
 .description-text{font-size: 1rem;}
 /*Map Section*/
 .map{height: 400px;}
+/*Footer*/
+#footer{margin-top: 50px}
+.copyright{font-size: 1rem;}
+}
+
+/*-----------Small-phones--------*/
+@media screen and (max-width: 380px){
+/*Navigation-bar*/
+.navbar-logo{width: 100px}
+.nav-link{font-size: 1rem;}
+/*Textes*/
+.title, .title-map, .title-message{font-size: 1.4rem;}
+.text, .text-map, .text-message{font-size: 0.8rem;}
+.title-beauti{font-size: 2rem;}
+/*icons*/
+.icon-message{font-size: 20px;margin: 40px 0;}
+.icon-footer{font-size: 1.5rem;}
+.icon-block{font-size: 23px;}
+/*Map Section*/
+.map{height: 350px;}
 /*Footer*/
 #footer{margin-top: 50px}
 .copyright{font-size: 1rem;}
