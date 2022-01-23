@@ -1,0 +1,142 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html{
+scroll-behavior: smooth;
+}
+
+/*Navigation-Bar*/
+#section_nav{
+	width: 100%;
+	box-shadow:0 0 10px;
+}
+.navbar-logo{
+ width: 200px;
+}
+.navbar-nav{
+	margin: auto;
+}
+.nav-link{
+font-size: 1.5rem;
+margin-right: 50px;
+}
+.navbar-toggler{
+	font-size: 20px;
+	border: none;
+}
+/*---Container-Section--*/
+#history_section{
+	text-align: center;
+}
+.img-history{
+	width: 90%;
+	max-height: 85%;
+	margin-top: 5px;
+	border-radius: 20px;
+	float: left;
+	box-shadow: 0 0 20px lightgray;
+}
+
+.history-block{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 50px auto 40px;
+	padding: 20px;
+}
+/*Containers*/
+.container-fluid{
+	padding: 0% 10%;
+}
+/*-----Titles----*/
+.title-history{
+	font-size: 2rem;
+	margin: 20px 0px 0px;
+	text-align: left;
+}
+
+.title-beauti{
+	font-family: 'Lobster';
+	font-size: 3rem;
+	margin: 100px auto 50px;
+}
+.text-history{
+	font-size: 1.5rem;
+	margin: 10px 0px 0px;
+	text-align: left;
+}
+/*Icons*/
+.icon-block{
+	color: red;
+	font-size: 30px;
+	padding-top: 20px;
+	margin-left: 0px;
+	display: flex;
+	flex-direction: row;
+}
+.icons-footer{
+	text-align: center;
+	font-size: 20px;
+	color: gray;
+	font-size: 30px;
+}
+/*Footer*/
+#footer{
+	padding-top: 12%;
+}
+/*Copytight*/
+.copyright{
+	color: lightgray;
+	font-size: 1.5rem;
+	text-align: center;
+	margin: 50px auto 50px;
+}
+/*Underline-pointer*/
+.underline-pointer{
+	margin: 100px auto;
+    border: dotted;
+    width: 4%;
+    border-bottom: none;
+    color: lightgray;
+}
+/*Selector*/
+.btn_place{
+	font-size: 20px;
+	width: 200px;
+	border: 2px solid darkred;
+	border-radius: 5px;
+	background: white;
+	text-align: center;
+	color: darkred;
+}
+
+
+.selector_big-item{
+	font-size: 0.9rem;
+	color: black;
+	text-decoration: none;
+	position: static;
+	background: white;
+}
+.selector_big-item:hover{
+	color: black;
+}
+/**/
+.dropmenu{
+	padding: 18px;
+	margin-top: 5px;
+	display: none;
+	position: absolute;
+	z-index: 1;
+	background: white;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.big{
+	font-size: 20px;
+}
