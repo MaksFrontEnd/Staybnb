@@ -19,16 +19,14 @@ a{
 .title, .title-message{
 	font-size: 2rem;
 	margin: 20px 0px 0px;
-}
-.title-beauti{
-	font-family: 'Lobster';
-	font-size: 3rem;
-	margin: 100px auto 100px;
+	text-align: left;
 }
 .text, .text-message{
 	font-size: 1.5rem;
 	margin: 10px 0px 0px;
+	text-align: left;
 }
+
 .text-row{
 	margin-left: 20px;
 	padding: 10px;
@@ -68,8 +66,13 @@ margin-right: 50px;
 }
 .galery-img{
 	max-width: 47%;
+	height: 50%;
 	padding: 20px 10px;
-	border-radius: 25px;
+	border-radius: 20%;
+}
+
+.galery-img:hover{
+	transform: scale(1.1);
 }
 /*Section-Map*/
 .map{
@@ -86,12 +89,7 @@ font-family: 'Mochiy Pop P One';
 font-size: 1.2rem;
 }
 /*-----Sigth-Section---*/
-.block-sightseeing{
-display: flex;
-flex-direction: column;
-width: 100%;
-margin: 20px -10px 20px;
-}
+
 .sigth-img{
 width: 380px;
 padding: 0px;
@@ -111,7 +109,7 @@ padding: 0px;
 }
 .small-details{
 display: flex;
-flex-direction: row-reverse;
+flex-direction: row;
 }
 .message-container{
 	display: flex;
@@ -133,7 +131,8 @@ flex-direction: row-reverse;
 .icon-block{
 	color: red;
 	font-size: 30px;
-	padding: 20px;
+	padding-top: 20px;
+	margin-left: 20px;
 	display: flex;
 	flex-direction: row;
 }
@@ -142,9 +141,4 @@ flex-direction: row-reverse;
 	font-size: 20px;
 	color: gray;
 	font-size: 30px;
-}
-/*---Container-Section--*/
-#container_section{
-	text-align: center;
-}
 }

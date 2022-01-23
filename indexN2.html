@@ -7,14 +7,14 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="indexN2.css">
 	<link rel="stylesheet" type="text/css" href="Queriaes.css">
 	<title>Histor..</title>
 </head>
 <body>
 
 
-<!----Navigation-Bar----------->
+	<!----Navigation-Bar----------->
 	<div id = "section_nav">
 		<div class = "container-fluid">
 			<nav class="navbar navbar-expand-lg navbar-light">
@@ -29,35 +29,145 @@
 							<a href = "#" class = "nav-link text-dark"><ion-icon name="home-outline"></ion-icon>Історичні місця</a>
 						</li>
 						<li class = "nav-item">
-							<a href = "#" class = "nav-link" id = "btn-blog"><ion-icon name="image-outline"></ion-icon>Our Blog</a>
+							<a href = "#" class = "nav-link" id = "btn-blog"><ion-icon name="image-outline"></ion-icon>Блог</a>
 						</li>
 						<li class = "nav-item">
-							<a href = "#" class = "nav-link"><ion-icon name="id-card-outline"></ion-icon>Home page</a>
+							<a href = "index.html" class = "nav-link"><ion-icon name="id-card-outline"></ion-icon>Головна сторінка</a>
 						</li>
 					</ul>
-					<button class = "btn btn-outline-danger btn-lg">Register Now <ion-icon name="arrow-forward-outline"></ion-icon></button>
+					<button class = "btn_place">Виберіть Місце:
+						<div class = "dropmenu">
+							<a href = "#pilecki-block" class = "selector_big-item">Пам'ятник Пілецькому</a><hr>
+							<a href = "#anonim-block" class = "selector_big-item">Анонімномниі перехожі</a><hr>
+							<a href = "#train-block" class = "selector_big-item">Потяг до небес</a><hr>
+							<a href = "#ioan-block" class = "selector_big-item">Пам'ятник І.Непомуку</a><hr>
+							<a href = "##alex-block" class = "selector_big-item">Пам'ятник О.Фредро</a>
+						</div>
+					</button>
 				</div>
 			</nav>
 		</div>
 	</div>
 
-	<!---------Container-Section---------->
+	<!---------History-Section---------->
 
-	<div id = "container_section">
+	<div id = "history_section">
 		<div class = "container-fluid">
+
 			<h2 class = "title-beauti">Історичні місця:</h2>
+
+
+			<div id = "anonim-block" class = "history-block">
+				<div class = "col-lg-5 col-md-12 col-sm-12 col-12">
+					<img class = "col-height img-history" src="sightImg-1.jpg">
+				</div>
+				<div class = "col-lg-7 col-md-12 col-sm-12 col-12">
+					<h2 class = "title-history">Пам'ятник Анонімному перехожому</h2>
+					<div class = "icon-block">
+						<ion-icon  name="star"></ion-icon>
+						<ion-icon  name="star"></ion-icon>
+						<ion-icon  name="star"></ion-icon>
+						<ion-icon  name="star"></ion-icon>
+					</div>
+					<p class = "text-history">Передісторія створення даної композиції призведе Вас до різного марення про комуністичне рабство і таке інше. Забудьте. Просто подивіться і насолодіться цією композицією, викиньте з голови все філософське марення - поляки протягом століть були невдячні до своїх рятівників. Просто подивіться, сфотографуйтесь.</p>
+				</div>
+			</div>
+			<hr id = "pilecki-block" class="underline_history-block">
+			<div class = "history-block">
+				<div class = "col-lg-5 col-md-12 col-sm-12 col-12">
+					<img class = "img-history" src="sightImg-2.jpg">
+				</div>
+				<div class = "col-lg-7 col-md-12 col-sm-12 col-12">
+					<h2 class = "title-history">Пам'ятник Рота-майстру Пілецькому</h2>
+					<div class = "icon-block">
+						<ion-icon  name="star"></ion-icon>
+						<ion-icon  name="star"></ion-icon>
+						<ion-icon  name="star"></ion-icon>
+						<ion-icon  name="star"></ion-icon>
+					</div>
+					<p class = "text-history">Пам'ятник поставили у 2011 році на честь підпільного діяча Вітольда Пілецького. Він зробив багато для сучасної Польщі. Він займався антикомуністичною діяльністю, через що і був засуджений до страти тими самими комуністами наприкінці 40-х.</p>
+				</div>
+			</div>
+			<hr id = "train-block" class="underline_history-block">
+			<div class = "history-block">
+				<div class = "col-lg-5 col-md-12 col-sm-12 col-12">
+					<img class = "img-history" src="sightImg-3.jpg">
+				</div>
+				<div class = "col-lg-7 col-md-12 col-sm-12 col-12">
+					<h2 class = "title-history">Потяг до небес/Pociąg do nieba</h2>
+					<div class = "icon-block">
+						<ion-icon  name="star"></ion-icon>
+						<ion-icon  name="star"></ion-icon>
+						<ion-icon  name="star"></ion-icon>
+						<ion-icon  name="star"></ion-icon>
+					</div>
+					<p class = "text-history">Пам'ятник має власну історію і символізує прагнення світле майбутнє. Для поляків це символ свободи та надій на майбутнє. Потяг абсолютно реальний, був в експлуатації, а потім став пам'ятником.</p>
+				</div>
+			</div>
+			<hr id = "ioan-block" class="underline_history-block">
+			<div class = "history-block">
+				<div class = "col-lg-5 col-md-12 col-sm-12 col-12">
+					<img class = "col-height img-history" src="sightImg-4.jpg">
+				</div>
+				<div class = "col-lg-7 col-md-12 col-sm-12 col-12">
+					<h2 class = "title-history">Пам'ятник Іоанну Непомуку</h2>
+					<div class = "icon-block">
+						<ion-icon  name="star"></ion-icon>
+						<ion-icon  name="star"></ion-icon>
+						<ion-icon  name="star"></ion-icon>
+						<ion-icon  name="star"></ion-icon>
+					</div>
+					<p class = "text-history">Бароковий пам'ятник Яну Непомуцькому на Тумському острові стоїть перед костелом Св. Хреста з 1732р. Це найбільша статуя святого у світі. На підставі постаменту розміщено чотири сцени з життя святого: сповідь королеви Софії, паломництво, допит Яна королем Вацлавом, скидання святого в річку.Священик Ян Непомук був духівником королеви. Ян відмовився розкрити королю таємницю сповіді королеви і помер від болісних тортур. Його тіло скинули в мішку з Карлового мосту у Влтаву. За переказами, у тому самому місці, де тіло святого занурилося у Влтаву, над водою виникло</p>
+				</div>
+			</div>
+   			<hr id = "#alex-block" class="underline_history-block">
+			<div class = "history-block">
+				<div class = "col-lg-5 col-md-12 col-sm-12 col-12">
+					<img class = "col-height img-history" src="sightImg-5.jpg">
+				</div>
+				<div class = "col-lg-7 col-md-12 col-sm-12 col-12">
+					<h2 class = "title-history">Пам'ятник Олександру Фредро</h2>
+					<div class = "icon-block">
+						<ion-icon  name="star"></ion-icon>
+						<ion-icon  name="star"></ion-icon>
+						<ion-icon  name="star"></ion-icon>
+						<ion-icon  name="star"></ion-icon>
+					</div>
+					<p class = "text-history">Бронзовый памятник польскому поэту, драматургу и графу установлен на Рыночной площади, хотя первоначально он был установлен во Львове в конце XIX-го века. Установка памятника во Вроцлаве состоялось в середине 50-х годов.</p>
+				</div>
+			</div>
 		</div>
 	</div>
 
+	<hr class = "underline-pointer">
+	<!---------------------------->
+	<!--------------------Footer------------------------->	
+	<!---------------------------->
+
+	<div id = "footer">
+		<div class="icons-footer">
+			<ion-icon class = "icon-footer" name="logo-instagram"></ion-icon>
+			<ion-icon class = "icon-footer" name="logo-youtube"></ion-icon>
+			<ion-icon class = "icon-footer" name="logo-twitter"></ion-icon>
+			<ion-icon class = "icon-footer" name="logo-tiktok"></ion-icon>
+			<ion-icon class = "icon-footer" name="logo-facebook"></ion-icon>
+		</div>
+		<hr>
+		<h2 class = "copyright">&copy;Copyright by Maksym Spizhovyi</h2>
+	</div>
+</div>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src = 'index.js'></script>
+
+
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src = 'index.js'></script>
 </body>
 </html>
