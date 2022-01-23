@@ -66,9 +66,8 @@ margin-right: 50px;
 }
 .galery-img{
 	max-width: 47%;
-	max-height: 50%;
 	padding: 20px 10px;
-	border-radius: 20%;
+	border-radius: 30px;
 }
 
 .galery-img:hover{
