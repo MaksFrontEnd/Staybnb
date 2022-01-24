@@ -29,6 +29,33 @@ a{font-size: 1rem;}
 .copyright{font-size: 1rem;}
 }
 
+
+/*-----------Small-phones--------*/
+@media screen and (max-width: 480px){
+/*Navigation-bar*/
+.navbar-logo{width: 100px}
+.nav-link{font-size: 1rem;}
+/*Textes*/
+.title, .title-map, .title-message{font-size: 1.5rem;}
+.title-history{font-size:1.2rem}
+.text, .text-map, .text-message{font-size: 0.8rem;}
+.text-history{font-size: 0.8rem;}
+.title-beauti{font-size: 2rem;}
+/*icons*/
+.icon-message{font-size: 20px;margin: 40px 0;}
+.icon-footer{font-size: 1.5rem;}
+.icon-block{font-size: 23px;}
+/*Map Section*/
+.map{height: 350px;}
+/*Footer*/
+#footer{margin-top: 50px}
+.copyright{font-size: 1rem;}
+/*Underline*/
+.underline-pointer{
+margin: 20px auto 20px;
+}
+}
+
 /*-----------Small-phones--------*/
 @media screen and (max-width: 380px){
 /*Navigation-bar*/
@@ -37,7 +64,7 @@ a{font-size: 1rem;}
 /*Textes*/
 .title, .title-map, .title-message{font-size: 1.5rem;}
 .title-history{font-size:1rem}
-.text, .text-map, .text-message, .text-history{font-size: 0.8rem;}
+.text, .text-map, .text-message, .text-history{font-size: 0.7rem;}
 .title-beauti{font-size: 2rem;}
 /*icons*/
 .icon-message{font-size: 20px;margin: 40px 0;}
