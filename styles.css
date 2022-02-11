@@ -97,6 +97,12 @@ padding: 0px;
 #footer{
 	padding-top: 12%;
 }
+.copyright{
+	color: lightgray;
+	font-size: 1.5rem;
+	text-align: center;
+	margin: 50px auto 50px;
+}
 /*Buttons*/
 .btn-outline-danger{
 	border-radius: 10px;
@@ -114,13 +120,6 @@ flex-direction: row;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-}
-/*Footer*/
-.copyright{
-	color: lightgray;
-	font-size: 1.5rem;
-	text-align: center;
-	margin: 50px auto 50px;
 }
 /*Icons*/
 .icon-message{
@@ -140,4 +139,19 @@ flex-direction: row;
 	font-size: 20px;
 	color: gray;
 	font-size: 30px;
+}
+/*Dropmenu*/
+.dropmenu-blog{
+	padding: 18px;
+	width: 120px;
+	margin-top: 5px;
+	display: none;
+	position: absolute;
+	z-index: 2;
+	text-align: center;
+	background: white;
+	margin-left: -10px;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
 }

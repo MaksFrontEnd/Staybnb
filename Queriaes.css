@@ -51,9 +51,7 @@ a{font-size: 1rem;}
 #footer{margin-top: 50px}
 .copyright{font-size: 1rem;}
 /*Underline*/
-.underline-pointer{
-margin: 20px auto 20px;
-}
+.underline-pointer{margin: 20px auto 20px;}
 }
 
 /*-----------Small-phones--------*/
