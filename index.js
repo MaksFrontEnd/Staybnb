@@ -7,3 +7,6 @@ $('.btn_place').click(function(){
 	$('.dropmenu').slideToggle();
 });
 
+$('#btn-blog').click(function(){
+	$('.dropmenu-blog').slideToggle();
+});

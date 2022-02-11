@@ -1,0 +1,69 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),#66BFBF;
+	width: 100%;
+	height: 100vh;
+}
+/*Footer*/
+#footer{
+	padding-top: 5%;
+}
+.copyright{
+	color: lightgray;
+	font-size: 2rem;
+	text-align: center;
+	margin: 50px auto 0px;
+	padding-bottom: 50px;
+}
+/*Form*/
+.form-label{
+	color: white;
+	font-size: 20px;
+}
+.form-label{
+	font-size: 1.5rem;
+}
+/*Icons*/
+.icons-footer{
+	text-align: center;
+	font-size: 20px;
+	color: lightgray;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.icon-instagram:hover{
+	color: gold;
+}
+.icon-youtube:hover{
+	color: red;
+}
+.icon-twitter:hover{
+	color: lightblue;
+}
+.icon-TikTok:hover{
+	color: black;
+}
+.icon-facebook:hover{
+	color: blue;
+}
+/*Containers*/
+.container-fulid{
+	margin: 0% 15%;
+	text-align: center;
+}
+.form-container{
+	max-width: 420px;
+	margin: auto;
+	padding-top: 90px;
+	padding-bottom: 60px;
+	text-align: left;
+}
+/*Button*/
+.btn-primary{
+	width: 100%;
+}
