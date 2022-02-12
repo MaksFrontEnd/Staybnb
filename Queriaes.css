@@ -1,13 +1,17 @@
-/*Large-Tablets*/
+/*----------------Large-Tablets--------------*/
 @media screen and (max-width: 1390px){
 /*Navigation-bar*/
 .navbar-logo{width: 140px}
 .nav-link{font-size: 1rem;}
 /*Btn*/
 .btn-outline-danger{font-size: 13px;}
-
-
+/*Form*/
+.title-form{font-size: 2.5rem;margin: 100px auto 100px;}
+.form-label{font-size: 1.7rem;}
+.btn-submit{font-size: 1.5rem;margin: 0 auto 100px;}
 }
+
+
 /*------------------Tablets-----------------*/
 @media screen and (max-width: 900px){
 .text-message{font-size: 17px;}
@@ -55,7 +59,7 @@ a{font-size: 1rem;}
 }
 
 /*-----------Small-phones--------*/
-@media screen and (max-width: 380px){
+@media screen and (max-width: 390px){
 /*Navigation-bar*/
 .navbar-logo{width: 100px}
 .nav-link{font-size: 1rem;}
@@ -73,4 +77,8 @@ a{font-size: 1rem;}
 /*Footer*/
 #footer{margin-top: 50px}
 .copyright{font-size: 1rem;}
+/*Form*/
+.title-form{font-size: 1.2rem;margin: 20px;}
+.form-label{font-size: 1rem;}
+.btn-submit{font-size: 1rem;margin: 0 auto 0px;}
 }
