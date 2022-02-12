@@ -44,7 +44,7 @@ a{font-size: 1rem;}
 .title-history{font-size:1.2rem}
 .text, .text-map, .text-message{font-size: 0.8rem;}
 .text-history{font-size: 0.8rem;}
-.title-beauti{font-size: 2rem;}
+.title-beauti{font-size: 2rem;margin: 30px auto -20px;}
 /*icons*/
 .icon-message{font-size: 20px;margin: 40px 0;}
 .icon-footer{font-size: 1.5rem;}
