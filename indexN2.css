@@ -8,6 +8,14 @@ html{
 scroll-behavior: smooth;
 }
 
+.history-platform{
+	color: black;
+}
+.history-platform:hover{
+	color: black;
+	text-decoration: none;
+}
+
 /*Navigation-Bar*/
 #section_nav{
 	width: 100%;
@@ -63,6 +71,7 @@ margin-right: 30px;
 	font-size: 3rem;
 	margin: 100px auto 50px;
 }
+
 .text-history{
 	font-size: 1.5rem;
 	margin: 10px 0px 0px;
